@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TBTabBarViewController.h"
 
 @implementation AppDelegate
 
@@ -14,7 +15,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    self.window.rootViewController = [[TBTabBarViewController alloc] init];
+    
     self.window.backgroundColor = [UIColor whiteColor];
+    //self.window.backgroundColor = [UIColor colorWithRed:0.20 green:0.27 blue:0.36 alpha:1];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

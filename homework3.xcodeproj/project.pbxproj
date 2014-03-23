@@ -19,6 +19,16 @@
 		11B6B86018DE54BC004EC166 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B6B84818DE54BC004EC166 /* UIKit.framework */; };
 		11B6B86818DE54BC004EC166 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11B6B86618DE54BC004EC166 /* InfoPlist.strings */; };
 		11B6B86A18DE54BC004EC166 /* homework3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B6B86918DE54BC004EC166 /* homework3Tests.m */; };
+		11B6B87B18DE568D004EC166 /* TBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B6B87918DE568D004EC166 /* TBTabBarViewController.m */; };
+		11B6B87C18DE568D004EC166 /* TBTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B6B87A18DE568D004EC166 /* TBTabBarViewController.xib */; };
+		11B6B88018DE5C0F004EC166 /* TBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B6B87E18DE5C0F004EC166 /* TBHomeViewController.m */; };
+		11B6B88118DE5C0F004EC166 /* TBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B6B87F18DE5C0F004EC166 /* TBHomeViewController.xib */; };
+		11B6B88518DE5C26004EC166 /* TBSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B6B88318DE5C26004EC166 /* TBSearchViewController.m */; };
+		11B6B88618DE5C26004EC166 /* TBSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B6B88418DE5C26004EC166 /* TBSearchViewController.xib */; };
+		11B6B88A18DE5C74004EC166 /* TBAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B6B88818DE5C74004EC166 /* TBAccountViewController.m */; };
+		11B6B88B18DE5C74004EC166 /* TBAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B6B88918DE5C74004EC166 /* TBAccountViewController.xib */; };
+		11B6B88F18DE5C84004EC166 /* TBTrendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B6B88D18DE5C84004EC166 /* TBTrendingViewController.m */; };
+		11B6B89018DE5C84004EC166 /* TBTrendingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B6B88E18DE5C84004EC166 /* TBTrendingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,21 @@
 		11B6B86518DE54BC004EC166 /* homework3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homework3Tests-Info.plist"; sourceTree = "<group>"; };
 		11B6B86718DE54BC004EC166 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11B6B86918DE54BC004EC166 /* homework3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homework3Tests.m; sourceTree = "<group>"; };
+		11B6B87818DE568D004EC166 /* TBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTabBarViewController.h; sourceTree = "<group>"; };
+		11B6B87918DE568D004EC166 /* TBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTabBarViewController.m; sourceTree = "<group>"; };
+		11B6B87A18DE568D004EC166 /* TBTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBTabBarViewController.xib; sourceTree = "<group>"; };
+		11B6B87D18DE5C0F004EC166 /* TBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHomeViewController.h; sourceTree = "<group>"; };
+		11B6B87E18DE5C0F004EC166 /* TBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHomeViewController.m; sourceTree = "<group>"; };
+		11B6B87F18DE5C0F004EC166 /* TBHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBHomeViewController.xib; sourceTree = "<group>"; };
+		11B6B88218DE5C26004EC166 /* TBSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBSearchViewController.h; sourceTree = "<group>"; };
+		11B6B88318DE5C26004EC166 /* TBSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBSearchViewController.m; sourceTree = "<group>"; };
+		11B6B88418DE5C26004EC166 /* TBSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBSearchViewController.xib; sourceTree = "<group>"; };
+		11B6B88718DE5C74004EC166 /* TBAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBAccountViewController.h; sourceTree = "<group>"; };
+		11B6B88818DE5C74004EC166 /* TBAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBAccountViewController.m; sourceTree = "<group>"; };
+		11B6B88918DE5C74004EC166 /* TBAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBAccountViewController.xib; sourceTree = "<group>"; };
+		11B6B88C18DE5C84004EC166 /* TBTrendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTrendingViewController.h; sourceTree = "<group>"; };
+		11B6B88D18DE5C84004EC166 /* TBTrendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTrendingViewController.m; sourceTree = "<group>"; };
+		11B6B88E18DE5C84004EC166 /* TBTrendingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBTrendingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +136,21 @@
 				11B6B85418DE54BC004EC166 /* AppDelegate.m */,
 				11B6B85618DE54BC004EC166 /* Images.xcassets */,
 				11B6B84B18DE54BC004EC166 /* Supporting Files */,
+				11B6B87818DE568D004EC166 /* TBTabBarViewController.h */,
+				11B6B87918DE568D004EC166 /* TBTabBarViewController.m */,
+				11B6B87A18DE568D004EC166 /* TBTabBarViewController.xib */,
+				11B6B87D18DE5C0F004EC166 /* TBHomeViewController.h */,
+				11B6B87E18DE5C0F004EC166 /* TBHomeViewController.m */,
+				11B6B87F18DE5C0F004EC166 /* TBHomeViewController.xib */,
+				11B6B88218DE5C26004EC166 /* TBSearchViewController.h */,
+				11B6B88318DE5C26004EC166 /* TBSearchViewController.m */,
+				11B6B88418DE5C26004EC166 /* TBSearchViewController.xib */,
+				11B6B88718DE5C74004EC166 /* TBAccountViewController.h */,
+				11B6B88818DE5C74004EC166 /* TBAccountViewController.m */,
+				11B6B88918DE5C74004EC166 /* TBAccountViewController.xib */,
+				11B6B88C18DE5C84004EC166 /* TBTrendingViewController.h */,
+				11B6B88D18DE5C84004EC166 /* TBTrendingViewController.m */,
+				11B6B88E18DE5C84004EC166 /* TBTrendingViewController.xib */,
 			);
 			path = homework3;
 			sourceTree = "<group>";
@@ -219,8 +259,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B6B88618DE5C26004EC166 /* TBSearchViewController.xib in Resources */,
+				11B6B87C18DE568D004EC166 /* TBTabBarViewController.xib in Resources */,
+				11B6B88B18DE5C74004EC166 /* TBAccountViewController.xib in Resources */,
 				11B6B84F18DE54BC004EC166 /* InfoPlist.strings in Resources */,
 				11B6B85718DE54BC004EC166 /* Images.xcassets in Resources */,
+				11B6B89018DE5C84004EC166 /* TBTrendingViewController.xib in Resources */,
+				11B6B88118DE5C0F004EC166 /* TBHomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +284,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B6B88F18DE5C84004EC166 /* TBTrendingViewController.m in Sources */,
+				11B6B88518DE5C26004EC166 /* TBSearchViewController.m in Sources */,
+				11B6B87B18DE568D004EC166 /* TBTabBarViewController.m in Sources */,
+				11B6B88A18DE5C74004EC166 /* TBAccountViewController.m in Sources */,
 				11B6B85518DE54BC004EC166 /* AppDelegate.m in Sources */,
 				11B6B85118DE54BC004EC166 /* main.m in Sources */,
+				11B6B88018DE5C0F004EC166 /* TBHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
